@@ -30,7 +30,7 @@ Please note
 Other info
 ----------
 
-Default .NET version: 4.5 , so compiled exe will work on Windows 8+.
+Default .NET version is 4.5 , so compiled exe will work on Windows 8+.
 
 Contains dnscrypt_proxy.exe from https://github.com/jedisct1/dnscrypt-proxy and goodbyeapi.exe from https://github.com/ValdikSS/GoodbyeDPI.
 

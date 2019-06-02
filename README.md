@@ -9,6 +9,8 @@ Shrinking and reassembling tcp segments are done solely on the source and the ul
 
 Since on highly restricted networks, DNS blocking is also an issue, this app also runs a DNS encryption tool and redirects all outgoing DNS requests through it.
 
+This app is originally created to be used in Iran and only works for HTTPS websites.
+
 --------------------------------------------------
 
 Please note

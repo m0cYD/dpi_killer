@@ -1,7 +1,7 @@
 How does it work?
 -----------------
 
-In short, it exploits tcp segmentation mechanism and splits one of the outbound packets into 2 chunks. Since available DPI firewalls do not reconstruct the packets before inspection, they miss the packet which contains the blocked website address.
+In short, it exploits tcp segmentation mechanism and splits one of the outbound packets into 2 chunks. Since many DPI firewalls do not reconstruct packets before inspection, they miss the packet which contains the blocked website address.
 
 DPI (Deep Packet Inspection) methods are signature-aware and inspect specific offsets of packets to find the destination website address. By shrinking the pakcet into two parts, what they see is two independent malformed packets and let them pass.
 

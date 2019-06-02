@@ -11,7 +11,7 @@ Since on highly restricted networks, DNS blocking is also an issue, this app als
 
 --------------------------------------------------
 
-Please note:
+Please note
 ------------
 
 1- This tool does not change your IP.

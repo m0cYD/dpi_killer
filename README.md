@@ -10,4 +10,4 @@ Since on highly restricted networks, DNS blocking is also an issue, this app als
 
 Default .NET version: 4.5 , so compiled exe will work on Windows 8+.
 
-Contains dnscrypt.exe from https://github.com/jedisct1/dnscrypt-proxy and goodbyeapi.exe from https://github.com/ValdikSS/GoodbyeDPI.
+Contains dnscrypt_proxy.exe from https://github.com/jedisct1/dnscrypt-proxy and goodbyeapi.exe from https://github.com/ValdikSS/GoodbyeDPI.

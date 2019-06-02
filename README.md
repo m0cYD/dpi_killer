@@ -1,4 +1,5 @@
-- How does it work?
+How does it work?
+-----------------
 
 In short, it exploits tcp segmentation mechanism and splits one of the outbound packets into 2 chunks. Since available DPI firewalls do not reconstruct the packets before inspection, they miss the packet which contains the blocked website address.
 
@@ -8,7 +9,10 @@ Shrinking and reassembling tcp segments are done solely on the source and the ul
 
 Since on highly restricted networks, DNS blocking is also an issue, this app also runs a DNS encryption tool and redirects all outgoing DNS requests through it.
 
-- Please note:
+--------------------------------------------------
+
+Please note:
+------------
 
 1- This tool does not change your IP.
 
@@ -18,7 +22,11 @@ Since on highly restricted networks, DNS blocking is also an issue, this app als
 
 4- If your machine was shutdown while the app was running, run and close it again to revert the system network configuration to the previous state.
 
-- Other info:
+
+--------------------------------------------------
+
+Other info
+----------
 
 Default .NET version: 4.5 , so compiled exe will work on Windows 8+.
 

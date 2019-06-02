@@ -8,6 +8,20 @@ Shrinking and reassembling tcp segments are done solely on the source and the ul
 
 Since on highly restricted networks, DNS blocking is also an issue, this app also runs a DNS encryption tool and redirects all outgoing DNS requests through it.
 
+▪️ Please note:
+
+- This tool does not change your IP.
+
+- You can't bypass DPI for http websites by this app.
+
+- Before shutdown, make sure you have closed the app.
+
+- If your machine was shutdown while the app was running, run and close it again to revert the system network configuration to the previous state.
+
+▪️ Other information:
+
 Default .NET version: 4.5 , so compiled exe will work on Windows 8+.
 
 Contains dnscrypt_proxy.exe from https://github.com/jedisct1/dnscrypt-proxy and goodbyeapi.exe from https://github.com/ValdikSS/GoodbyeDPI.
+
+
